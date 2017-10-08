@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0018898746, g: 0.001901946, b: 0.0018822743, a: 1}
+  m_IndirectSpecularColor: {r: 0.0011162702, g: 0.0011468804, b: 0.0011161709, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -570,9 +570,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "We told you to be careful with the new ship!\n\nAt least you managed to
-    mine some ore before you destroyed it.  \n\nWe'll send a rescue crew for you soon.\n\nthis
-    will be comming out of your paycheck.\n\n\n\n\n\n\nRestart has not yet been implemented...\nPlease
-    reload the game to play again."
+    mine some ore before you destroyed it.  \n\nWe'll send a rescue crew for you soon.\n\nNote:
+    This will be comming out of your paycheck.\n\n\n\n\n\n\nRestart has not yet been
+    implemented...\nPlease reload the game to play again."
 --- !u!222 &575463758
 CanvasRenderer:
   m_ObjectHideFlags: 0
