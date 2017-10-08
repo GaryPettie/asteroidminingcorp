@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class TargetingAssist : MonoBehaviour {
 
 	[SerializeField] Image reticule;
+	//TODO Link the targetting distance to the projectile speed and lifetime
+	[SerializeField] float targetingDistance;
 
 	void Update () {
 		TargetAssist();
@@ -16,8 +18,7 @@ public class TargetingAssist : MonoBehaviour {
 	/// </summary>
 	void TargetAssist () {
 		Ray ray = new Ray();
-		RaycastHit hitInfo;
-		if (Physics.Raycast(ray.origin, transform.forward, 200f)) {
+		if (Physics.Raycast(ray.origin, transform.forward, targetingDistance)) {
 			Color32 tempColor = reticule.color;
 			tempColor.a = 135;
 			reticule.color = tempColor;
